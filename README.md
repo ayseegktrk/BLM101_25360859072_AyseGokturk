@@ -2,25 +2,31 @@
 # BLM101-Dönem Projesi
 
 ## Öğrenci Bilgileri
+
 . *Ad Soyad:*Ayşe GÖKTÜRK
 . *Öğrenci No:*25360859072
 . *Bölüm:*Bilgisayar Mühendisliği
 
 ## Proje Konusu
+
 *Sanal Mantık Devresi Simülatörü*
 
 ## Proje Açıklaması 
+
 Bu proje,temel dijital mantık kapılarını (AND,OR,NOT,XOR) simüle eden ve kullanıcıdan alınan girişlere 
 göre hem anlık sonuç üreten hem de karmaşık ifadeler için doğruluk tablosu oluşturan bir Python uygulamasıdır.
 
 ## Kullanılan Konular
+
 .Bilgisayar Mimarisi Temelleri:CPU ve ALU çalışma prensipleri
 .Dijital Mantık Kapıları
 .Doğruluk Tabloları 
 .Veri Manipülasonu
 
 ## Programın Çalışma Mantığı 
+
 Bu yazılım,dijital elektroniğin temelini oluşturan mantık kapılarını yazımsal olarak modellemektedir.
+
 1.Fonksiyonel Yapı:Her mantık kapısı(AND,OR,NOT,XOR) bit düzeyinde işlem yapan özel Python fonksiyonları (def) ile tanımlanmıştır.
 
 2.Kullanıcı Etkileşimi:Program,kullanıcıdan bir kapı türü seçmesini ister.Girilen metin .upper() metodu ile büyük harfe çevrilerek
@@ -42,21 +48,29 @@ olasılığın tamamı hesaplanır ve ekrana tablo formatında basılır.
 ## Kod Açıklaması(Markdown)
 
 Kodun Amacı:
+
 Bu yazılım,bilgisayar mimarisinin temelini oluşturan Aritmetik Mantık Birimi(ALU) prensiplerini Python dili ile simüle eder.
 Kullanıcıdan alınan verileri dijital mantık kapıları üzerinden işleyerek sonuç üretir.
 
 Kullanılan Kütüphaneler ve Araçlar
+
 .Standart Python Kütüphanesi:
 Proje harici bir paket yüklemesi gerektirmeden standart Python 3.x ortamında çalışmaktadır.
+
 .Yerleşik Fonksiyonlar:
 İnput(),Print(),.upper()
+
 .Bit düzeyinde İşleçler(Bitwise Operators)
 Mantık kapılarının matematiksel modellemesi için Python'in yerleşik & , | ,^ işleçleri kullanılmıştır.
+
 .F-String Biçimlendirme
 
 Algoritmanın Genel Mantığı
+
 Bu program, kullanıcıdan alınan seçimlere göre mantıksal veri manipülasyonu yapan ve otomatik bir doğruluk tablosu (truth table) üreten bir akışa sahiptir. 
+
 Algoritmanın işleyişi şu temel adımlardan oluşur:
+
 ​Kullanıcıdan input() fonksiyonu ile hangi mantık kapısını simüle etmek istediği bilgisi alınır.
 
 ​Girilen metin .upper() metodu kullanılarak büyük harfe çevrilir; böylece algoritma "and", "And" veya "AND" girişlerinin tamamını aynı şekilde işleyerek kullanıcı hatalarını minimize eder.
