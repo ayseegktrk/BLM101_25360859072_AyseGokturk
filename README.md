@@ -91,8 +91,7 @@ Algoritmanın işleyişi şu temel adımlardan oluşur:
 ​Sonuçlar, f-string formatlama yapısı kullanılarak düzenli bir tablo görünümünde terminale yazdırılır.
 
 ## YouTube Video Linki
-[
-]
 
+https://youtu.be/-IGsPDkdspA?si=g87yHn-GJq5-hemA
 
 
